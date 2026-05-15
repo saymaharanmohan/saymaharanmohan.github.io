@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saymaharan Mohan | Executive Portfolio & Technical Credentials</title>
+    
+    <!-- Open Graph Metadata for High-Impact Previews on LinkedIn, WhatsApp, and Emails -->
+    <meta property="og:title" content="Saymaharan Mohan | IT Portfolio & Technical Credentials">
+    <meta property="og:description" content="Information Technology Graduate with a unique cross-discipline background in IoT Systems, Artificial Intelligence, and Full-Stack Development. View certified credentials and industrial project modules.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="github.io">
+
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --surface: #ffffff;
+            --text-main: #0f172a;
+            --text-muted: #475569;
+            --accent: #2563eb;
+            --border: #e2e8f0;
+            --hover-bg: #f1f5f9;
+        }
+        [data-theme="dark"] {
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #3b82f6;
+            --border: #334155;
+            --hover-bg: #334155;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            margin: 0;
+            padding: 40px 20px;
+            transition: background 0.2s, color 0.2s;
+            -webkit-font-smoothing: antialiased;
+        }
+        .wrapper {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 35px;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 25px;
+            position: relative;
+        }
+        .theme-toggle {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            padding: 6px 12px;
+            border-radius: 20px;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 500;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .theme-toggle:hover { background: var(--hover-bg); }
+        h1 { font-size: 28px; font-weight: 700; margin: 0 0 6px 0; letter-spacing: -0.5px; }
+        .subtitle { font-size: 15px; color: var(--text-muted); margin: 0 0 6px 0; font-weight: 500; }
+        .location { font-size: 13px; color: var(--text-muted); font-weight: 400; }
+        .category-title {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-muted);
+            margin: 32px 0 12px 0;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 6px;
+            font-weight: 700;
+        }
+        .grid { display: flex; flex-direction: column; gap: 12px; }
+        .link-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 600;
+            transition: transform 0.15s ease, border-color 0.15s ease;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+        }
+        .link-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--accent);
+            background: var(--hover-bg);
+        }
+        .card-content-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .icon-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            color: var(--accent);
+            flex-shrink: 0;
+        }
+        .link-title {
+            font-size: 15px;
+        }
+        .link-card span.desc {
+            font-size: 13px;
+            color: var(--text-muted);
+            font-weight: 400;
+            display: block;
+            margin-top: 4px;
+            line-height: 1.4;
+        }
+        .arrow { color: var(--accent); font-weight: bold; font-size: 16px; transition: transform 0.15s ease; }
+        .link-card:hover .arrow { transform: translateX(3px); }
+    
+    .resume-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 18px;
+            background-color: var(--accent);
+            color: #ffffff !important;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            box-shadow: 0 4px 6px -1px rgba(37, 99, 235, 0.2);
+            transition: transform 0.15s ease, background-color 0.15s ease;
+        }
+        .resume-btn:hover {
+            transform: translateY(-1px);
+            filter: brightness(1.1);
+            box-shadow: 0 6px 10px -1px rgba(37, 99, 235, 0.3);
+        }
+    
+    </style>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">Interface Theme</button>
+            <h1>SAYMAHARAN MOHAN</h1>
+            <div class="subtitle">IT Graduate | IoT Systems, Artificial Intelligence & Full-Stack Developer</div>
+            <div class="location">Seremban, Negeri Sembilan, Malaysia (Open to Relocation)</div>
+        
+                <!-- RESUME BUTTON -->
+            <a href="Resume_Saymaharan_Mohan.pdf" download="Saymaharan_Mohan_Resume.pdf" class="resume-btn" target="_blank" rel="noopener noreferrer">
+                <span style="font-size: 16px;">📄</span> Download Full PDF Resume
+            </a>
+        </header>
+        
+        <div class="category-title">Core Channels & Professional Identity</div>
+        <div class="grid">
+            <!-- Link 1 -->
+            <a href="mailto:saymaharanmohan@gmail.com" class="link-card">
+                <div class="card-content-wrapper">
+                    <div class="icon-container">📩</div>
+                    <div class="link-title">saymaharanmohan@gmail.com<span class="desc">Direct primary email channel for institutional and corporate inquiries</span></div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+            <!-- Link 2 -->
+            <a href="https://wa.me/+601136506712" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="card-content-wrapper">
+                    <div class="icon-container">💬</div>
+                    <div class="link-title">+6011-36506712<span class="desc">Instant telephony communication routing via secure WhatsApp protocols</span></div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+            <!-- Link 3 -->
+            <a href="https://www.linkedin.com/in/saymaharanmohan" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="card-content-wrapper">
+                    <div class="icon-container">💼</div>
+                    <div class="link-title">LinkedIn<span class="desc">Verified enterprise career history, industry networking, and peer endorsements</span></div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+            <!-- Link 4 -->
+            <a href="https://github.com/saymaharanmohan" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="card-content-wrapper">
+                    <div class="icon-container">💻</div>
+                    <div class="link-title">GitHub<span class="desc">Source tracking framework housing application repositories and development code</span></div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+
+        <!-- Category 2: Industrial Track Record -->
+        <div class="category-title">Industrial Experience & Ecosystems</div>
+        <div class="grid">
+            <!-- Link 5 -->
+            <a href="https://heveaboard.com.my/" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="card-content-wrapper">
+                    <div class="icon-container">🏢</div>
+                    <div class="link-title">HeveaBoard Berhad<span class="desc">Manufacturing complex where I designed a robust 19-role RBAC security matrix</span></div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+            <!-- Link 6 -->
+            <a href="https://github.com/saymaharanmohan/HeveaBoard-OneView" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="card-content-wrapper">
+                    <div class="icon-container">📊</div>
+                    <div class="link-title">HeveaBoard OneView™<span class="desc">Central platform repository for traceability, CSV parsing, and management dashboards</span></div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+            <!-- Link 7 -->
+            <a href="https://karyaneka.com.my/" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="card-content-wrapper">
+                    <div class="icon-container">🏛️</div>
+                    <div class="link-title">Syarikat Pemasaran Karyaneka Sdn Bhd<span class="desc">National marketing enterprise where I managed network systems and data repositories</span></div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+
+        <!-- Category 3: Engineering Works & Academic Research Publications -->
+        <div class="category-title">Technical Projects & Peer-Reviewed Research</div>
+        <div class="grid">
+            <!-- Link 12 -->
+            <a href="https://github.com/saymaharanmohan/IoT-Based-Plant-Growth-Monitoring-System" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="card-content-wrapper">
+                    <div class="icon-container">🌱</div>
+                    <div class="link-title">IoT-Based Plant Growth Monitoring System<span class="desc">Bachelor FYP: ESP8266 telemetry array with TensorFlow Computer Vision AI diagnostics</span></div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+            <!-- Link 13 -->
+            <a href="https://github.com/saymaharanmohan/EzyQ-Food-Ordering-System" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="card-content-wrapper">
+                    <div class="icon-container">🛒</div>
+                    <div class="link-title">EzyQ Food Ordering System<span class="desc">Diploma FYP: Queue-optimization full-stack engine featuring complete SDLC metrics</span></div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+            <!-- Link 9 -->
+            <a href="https://publisher.uthm.edu.my/periodicals/index.php/aitcs/index" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="card-content-wrapper">
+                    <div class="icon-container">📰</div>
+                    <div class="link-title">AITCS<span class="desc">Applied Information Technology and Computer Science international periodic academic journal</span></div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+            <!-- Link 10 -->
+            <a href="https://publisher.uthm.edu.my/periodicals/index.php/aitcs/article/view/20191" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="card-content-wrapper">
+                    <div class="icon-container">🔬</div>
+                    <div class="link-title">Vol. 6 No. 2 (2025)<span class="desc">My published research paper proving real-time smart agriculture telemetry automation</span></div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+
+        <!-- Category 4: Academic Infrastructure Validation -->
+        <div class="category-title">Academic Frameworks</div>
+        <div class="grid">
+            <!-- Link 8 -->
+            <a href="https://www.uthm.edu.my/en" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="card-content-wrapper">
+                    <div class="icon-container">🎓</div>
+                    <div class="link-title">Universiti Tun Hussein Onn Malaysia (UTHM)<span class="desc">Bachelor of Information Technology with Honours (Second Class Upper | CGPA 3.34)</span></div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+            <!-- Link 11 -->
+            <a href="https://psmza.mypolycc.edu.my/" target="_blank" rel="noopener noreferrer" class="link-card">
+                <div class="card-content-wrapper">
+                    <div class="icon-container">📜</div>
+                    <div class="link-title">Politeknik Sultan Mizan Zainal Abidin (PSMZA)<span class="desc">Diploma in IT (Digital Technology) backed by consecutive Dean's List honors (CGPA 3.83)</span></div>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            const htmlElement = document.documentElement;
+            const currentTheme = htmlElement.getAttribute('data-theme');
+            const targetTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            htmlElement.setAttribute('data-theme', targetTheme);
+            localStorage.setItem('portfolio-theme', targetTheme);
+        }
+        
+        // Execute instant device layout configuration mapping
+        const savedTheme = localStorage.getItem('portfolio-theme');
+        if (savedTheme) {
+            document.documentElement.setAttribute('data-theme', savedTheme);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.setAttribute('data-theme', 'dark');
+        }
+    </script>
+</body>
+</html>
